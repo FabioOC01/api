@@ -1,1 +1,2 @@
-web: gunicorn lab06.wsgi 
+web: gunicorn lab06.wsgi --log-file -
+
