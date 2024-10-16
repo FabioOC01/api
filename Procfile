@@ -1,2 +1,3 @@
-web: gunicorn lab06.wsgi --log-file -
+web: python manage.py migrate && gunicorn tienda.wsgi
+
 
